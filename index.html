@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Julen Vázquez Gayoso — desarrollador backend especializado en Python y Odoo (PostgreSQL, Docker, QWeb, OWL)." />
+    <title>Julen Vázquez Gayoso — Desarrollador Backend Python</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main" data-translate="skipLink">Saltar al contenido</a>
+
+    <header class="tabbar">
+        <div class="tabbar-inner">
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="tabs" id="tabs">
+                <a class="tab active" href="#welcome" data-section="welcome">
+                    <span class="tab-dot"></span>welcome<span class="tab-ext">.py</span>
+                </a>
+                <a class="tab" href="#about" data-section="about">
+                    about<span class="tab-ext">.md</span>
+                </a>
+                <a class="tab" href="#experience" data-section="experience">
+                    experience<span class="tab-ext">.md</span>
+                </a>
+                <a class="tab" href="#skills" data-section="skills">
+                    skills<span class="tab-ext">.txt</span>
+                </a>
+                <a class="tab" href="#projects" data-section="projects">
+                    projects<span class="tab-ext">/</span>
+                </a>
+                <a class="tab" href="#contact" data-section="contact">
+                    contact<span class="tab-ext">.sh</span>
+                </a>
+            </nav>
+
+            <button class="lang-toggle" id="lang-toggle" aria-label="Cambiar idioma / switch language">
+                <strong id="lang-current">ES</strong>&nbsp;/&nbsp;<span id="lang-other">EN</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- welcome.py -->
+        <section id="welcome" class="hero">
+            <div class="hero-inner">
+                <div class="code-card">
+                    <div class="code-card-bar">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        <span class="filename">welcome.py</span>
+                    </div>
+                    <pre><code
+><span class="code-line"><span class="tok-kw">class</span> <span class="tok-class">Julen</span>(Developer):</span>
+<span class="code-line">    _name = <span class="tok-str">"julen.vazquez.gayoso"</span></span>
+<span class="code-line">    _description = <span class="tok-str">"Backend Developer — Python & Odoo"</span></span>
+<span class="code-line"></span>
+<span class="code-line">    <span class="tok-prop">role</span> = <span class="tok-str" data-translate="heroCodeRole">"Desarrollador Backend"</span></span>
+<span class="code-line">    <span class="tok-prop">stack</span> = [<span class="tok-str">"Python"</span>, <span class="tok-str">"PostgreSQL"</span>, <span class="tok-str">"Odoo"</span>, <span class="tok-str">"Docker"</span>]</span>
+<span class="code-line">    <span class="tok-prop">based_in</span> = <span class="tok-str" data-translate="heroCodeLocation">"Asturias, España"</span></span>
+<span class="code-line">    <span class="tok-prop">open_to_work</span> = <span class="tok-bool">True</span><span class="cursor"></span></span></code></pre>
+                </div>
+
+                <div class="hero-text">
+                    <h1>Julen Vázquez Gayoso</h1>
+                    <p class="hero-role" data-translate="heroRole">Desarrollador Backend · Python &amp; Odoo</p>
+                    <p class="hero-summary" data-translate="heroSummary">
+                        Construyo y mantengo sistemas backend en Python, con foco en la personalización de
+                        Odoo (PostgreSQL, QWeb, OWL) para clientes reales. Antes, técnico electricista —
+                        ahora, desarrollador.
+                    </p>
+                    <div class="hero-ctas">
+                        <a class="btn btn-primary" href="#projects" data-translate="ctaProjects">Ver proyectos</a>
+                        <a class="btn btn-secondary" href="#contact" data-translate="ctaContact">Contactar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about.md -->
+        <section id="about" class="about">
+            <div class="section-inner about-inner reveal">
+                <span class="eyebrow" data-translate="aboutEyebrow">about.md</span>
+                <h2 data-translate="aboutHeader">Sobre mí</h2>
+                <p data-translate="aboutText" style="margin-top: 1.3rem;">
+                    De instalaciones eléctricas a instalaciones de software. Hoy soy desarrollador backend especializado en Python y Odoo, con un Técnico Superior en Desarrollo de Aplicaciones Web. En Lider IT diseño y mantengo módulos personalizados de Odoo para distintos clientes: componentes OWL a medida —como uno que permite distribuir dinámicamente las horas de los empleados entre proyectos y genera automáticamente los apuntes analíticos correspondientes—, campos de análisis de costes y presupuestos de proyecto, la integración entre pedidos de venta y órdenes de fabricación, e informes QWeb refactorizados para mejorar su rendimiento. Fuera del trabajo sigo programando por diversión: Mirror Boss Exit Doors, un mod para The Binding of Isaac publicado en Steam Workshop con más de 2000 descargas, además de ShortBat y GameHub.
+                </p>
+            </div>
+        </section>
+
+        <!-- experience.md -->
+        <section id="experience" class="experience">
+            <div class="section-inner reveal">
+                <span class="eyebrow" data-translate="experienceEyebrow">experience.md</span>
+                <h2 data-translate="experienceHeader">Experiencia</h2>
+
+                <div class="changelog">
+
+                    <article class="entry is-current">
+                        <div class="entry-meta">
+                            <span class="entry-version">v2025.10</span>
+                            <span class="entry-current" data-translate="current">actual</span>
+                            <span class="entry-dates" data-translate="dateLiderIt">Octubre 2025 — actualidad</span>
+                        </div>
+                        <h3 data-translate="liderItTitle">Desarrollador Odoo <span>· Lider IT</span></h3>
+                        <ul data-translate-html="liderItBullets"></ul>
+                        <div class="entry-tags">
+                            <span class="tag">Python</span><span class="tag">PostgreSQL</span>
+                            <span class="tag">QWeb</span><span class="tag">OWL</span><span class="tag">Docker</span>
+                        </div>
+                    </article>
+
+                    <article class="entry">
+                        <div class="entry-meta">
+                            <span class="entry-version">v2025.04</span>
+                            <span class="entry-dates" data-translate="dateTiodoo">Abril 2025 — Septiembre 2025</span>
+                        </div>
+                        <h3 data-translate="tiodooTitle">Desarrollador Odoo <span>· TIOdoo S.L.</span></h3>
+                        <ul data-translate-html="tiodooBullets"></ul>
+                        <div class="entry-tags">
+                            <span class="tag">Python</span><span class="tag">PostgreSQL</span><span
+                                class="tag">Odoo</span>
+                        </div>
+                    </article>
+
+                    <article class="entry">
+                        <div class="entry-meta">
+                            <span class="entry-version">v2024.04</span>
+                            <span class="entry-dates" data-translate="dateAsac">Abril 2024 — Junio 2024</span>
+                        </div>
+                        <h3 data-translate="asacTitle">Desarrollador Backend <span>· Asac Comunicaciones S.L.</span>
+                        </h3>
+                        <ul data-translate-html="asacBullets"></ul>
+                        <div class="entry-tags">
+                            <span class="tag">C#</span><span class="tag">ASP.NET MVC</span>
+                            <span class="tag">JavaScript</span><span class="tag">SQL Server</span>
+                        </div>
+                    </article>
+
+                    <article class="entry">
+                        <div class="entry-meta">
+                            <span class="entry-version">v2019.07</span>
+                            <span class="entry-dates" data-translate="dateLlames">Julio 2019 — Junio 2021</span>
+                        </div>
+                        <h3 data-translate="llamesTitle">Auxiliar Técnico <span>· Electricidad Llames S.L.</span></h3>
+                        <ul data-translate-html="llamesBullets"></ul>
+                        <div class="entry-tags">
+                            <span class="tag">AutoCAD</span><span class="tag" data-translate="tagTechMgmt">Gestión
+                                técnica</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- skills.txt -->
+        <section id="skills" class="skills">
+            <div class="section-inner reveal">
+                <span class="eyebrow" data-translate="skillsEyebrow">skills.txt</span>
+                <h2 data-translate="skillsHeader">Destrezas</h2>
+
+                <div class="manifest">
+                    <div class="manifest-group">
+                        <span class="manifest-comment">Backend</span>
+                        <div class="pill-row">
+                            <span class="pill">Python</span><span class="pill">C#</span><span class="pill">.NET</span>
+                            <span class="pill">ASP.NET MVC</span><span class="pill">PHP</span>
+                        </div>
+                    </div>
+                    <div class="manifest-group">
+                        <span class="manifest-comment">ERP / Odoo</span>
+                        <div class="pill-row">
+                            <span class="pill">Odoo (v14–19)</span><span class="pill">QWeb</span>
+                            <span class="pill">OWL</span><span class="pill">ORM</span>
+                        </div>
+                    </div>
+                    <div class="manifest-group">
+                        <span class="manifest-comment" data-translate="skillDb">Bases de datos</span>
+                        <div class="pill-row">
+                            <span class="pill">PostgreSQL</span><span class="pill">MySQL</span><span
+                                class="pill">MariaDB</span>
+                        </div>
+                    </div>
+                    <div class="manifest-group">
+                        <span class="manifest-comment">DevOps</span>
+                        <div class="pill-row">
+                            <span class="pill">Docker</span><span class="pill">Git</span><span
+                                class="pill">GitHub</span>
+                            <span class="pill">GitLab</span><span class="pill">Linux</span>
+                        </div>
+                    </div>
+                    <div class="manifest-group">
+                        <span class="manifest-comment">Frontend</span>
+                        <div class="pill-row">
+                            <span class="pill">HTML5</span><span class="pill">CSS3</span>
+                            <span class="pill">JavaScript</span><span class="pill">Angular</span>
+                        </div>
+                    </div>
+                    <div class="manifest-group">
+                        <span class="manifest-comment" data-translate="skillOther">Otros</span>
+                        <div class="pill-row">
+                            <span class="pill">POO</span><span class="pill">Clean Code</span>
+                            <span class="pill" data-translate="skillTesting">Testing y debugging</span>
+                            <span class="pill" data-translate="skillA11y">Accesibilidad web</span>
+                        </div>
+                    </div>
+                    <div class="manifest-group">
+                        <span class="manifest-comment" data-translate="skillLang">Idiomas</span>
+                        <div class="pill-row">
+                            <span class="pill" data-translate="langEs">Español — nativo</span>
+                            <span class="pill" data-translate="langEn">Inglés — First Certificate (B2)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects/ -->
+        <section id="projects" class="projects">
+            <div class="section-inner reveal">
+                <span class="eyebrow" data-translate="projectsEyebrow">projects/</span>
+                <h2 data-translate="projectsHeader">Algunos de mis proyectos</h2>
+
+                <div class="project-grid">
+
+                    <a class="project-card" href="resources/DAW_M12_Memoria_JulenVazquezGayoso.pdf" target="_blank"
+                        rel="noopener">
+                        <div class="project-thumb">
+                            <img src="resources/gamehub.png" alt="Captura de GameHub" loading="lazy" />
+                            <div class="project-stack">
+                                <img src="resources/icons/html5.png" alt="HTML5" title="HTML5" />
+                                <img src="resources/icons/css3.svg" alt="CSS3" title="CSS3" />
+                                <img src="resources/icons/php.svg" alt="PHP" title="PHP" />
+                                <img src="resources/icons/javascript-logo.svg" alt="JavaScript" title="JavaScript" />
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-name">gamehub<span class="path">.project</span></p>
+                            <p data-translate="gameHubDescription">
+                                Una app web para gestionar y compartir tu colección de videojuegos, clasificarlos
+                                por estado y descubrir colecciones de otros usuarios.
+                            </p>
+                            <span class="project-link" data-translate="viewMemory">Ver memoria del proyecto</span>
+                        </div>
+                    </a>
+
+                    <a class="project-card" href="https://github.com/JulenVG/Project-ShortBat" target="_blank"
+                        rel="noopener">
+                        <div class="project-thumb">
+                            <img src="resources/shortbat.png" alt="Captura de ShortBat" loading="lazy" />
+                            <div class="project-stack">
+                                <img src="resources/icons/csharp.svg" alt="C#" title="C#" />
+                                <img src="resources/icons/NET_Core_Logo.svg.png" alt=".NET" title=".NET" />
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-name">shortbat<span class="path">.project</span></p>
+                            <p data-translate="shortBatDescription">
+                                Automatiza el filtrado masivo de archivos de audio, buscando grabaciones de
+                                murciélagos en carpetas de forma rápida y eficiente.
+                            </p>
+                            <span class="project-link" data-translate="viewRepo">Ver repositorio</span>
+                        </div>
+                    </a>
+
+                    <a class="project-card" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3405584968"
+                        target="_blank" rel="noopener">
+                        <div class="project-thumb">
+                            <img src="resources/mirror_boss_mod.png" alt="Captura del mod Mirror Boss Exit Doors"
+                                loading="lazy" />
+                            <div class="project-stack">
+                                <img src="resources/icons/Lua-Logo.svg.png" alt="Lua" title="Lua" />
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-name">mirror-boss-exit-doors<span class="path">.mod</span></p>
+                            <p data-translate="mirrorBossDescription">
+                                Mod para <i>The Binding of Isaac</i> que introduce una nueva mecánica de calidad
+                                de vida, facilitando la salida del mundo espejo tras derrotar al jefe.
+                            </p>
+                            <span class="project-link" data-translate="viewWorkshop">Ver en Steam Workshop</span>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- contact.sh -->
+        <section id="contact" class="contact">
+            <div class="section-inner reveal">
+                <span class="eyebrow" data-translate="contactEyebrow">contact.sh</span>
+                <h2 data-translate="contactHeader">Hablemos</h2>
+
+                <div class="terminal">
+                    <div class="terminal-bar">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        <span class="filename">contact.sh</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p class="term-line"><span class="prompt">$</span>whoami</p>
+                        <p class="term-echo" data-translate="whoami">Julen Vázquez Gayoso — Desarrollador Backend</p>
+
+                        <p class="term-line"><span class="prompt">$</span>open github.com/JulenVG</p>
+                        <a class="term-result" href="https://github.com/JulenVG" target="_blank" rel="noopener">→
+                            GitHub</a>
+
+                        <p class="term-line"><span class="prompt">$</span>open linkedin.com/in/julen-vázquez-gayoso</p>
+                        <a class="term-result" href="https://www.linkedin.com/in/julen-vázquez-gayoso/" target="_blank"
+                            rel="noopener">→ LinkedIn</a>
+
+                        <p class="term-line"><span class="prompt">$</span>mail julen817@gmail.com</p>
+                        <a class="term-result" href="mailto:julen817@gmail.com">→ Email</a>
+
+                        <p class="term-line" style="margin-top: 1rem;"><span class="prompt">$</span>echo $MENSAJE</p>
+                        <p class="term-echo" data-translate="contactThanks">Gracias por pasarte por aquí.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p data-translate="footerMessage">Este es mi portafolio personal — todos los proyectos y detalles son reales.
+        </p>
+        <p data-translate="footerRights">© 2026 Julen Vázquez Gayoso. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
