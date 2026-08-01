@@ -9,7 +9,7 @@ const translations = {
     heroCodeLocation: '"Asturias, España"',
     heroRole: "Desarrollador Backend · Python &amp; Odoo",
     heroSummary:
-      "Construyo y mantengo sistemas backend en Python, con foco en la personalización de Odoo (PostgreSQL, QWeb, OWL) para clientes reales. Antes, técnico electricista — ahora, desarrollador.",
+      "Construyo y mantengo sistemas backend en Python, con foco en la personalización de Odoo (PostgreSQL, QWeb, OWL) para clientes reales.",
     ctaProjects: "Ver proyectos",
     ctaContact: "Contactar",
 
@@ -90,7 +90,7 @@ const translations = {
     heroCodeLocation: '"Asturias, Spain"',
     heroRole: "Backend Developer · Python &amp; Odoo",
     heroSummary:
-      "I build and maintain Python backend systems, focused on customizing Odoo (PostgreSQL, QWeb, OWL) for real clients. Formerly an electrical technician — now a developer.",
+      "I build and maintain Python backend systems, focused on customizing Odoo (PostgreSQL, QWeb, OWL) for real clients.",
     ctaProjects: "View projects",
     ctaContact: "Get in touch",
 
